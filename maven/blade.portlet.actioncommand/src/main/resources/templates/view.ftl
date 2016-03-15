@@ -16,6 +16,8 @@
 
 <#include "init.ftl">
 
+${Request["GREETER_MESSAGE"]!""}
+
 <@portlet["actionURL"] name="greet" varImpl="greetURL"/>
 
 <@aui["form"] action="${greetURL}" method="post" name="fm">
