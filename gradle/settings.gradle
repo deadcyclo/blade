@@ -12,6 +12,7 @@ include(
 	'blade.pollprocessor',
 	'blade.portlet.actioncommand',
 	'blade.portlet.blueprint',
+	'blade.portlet.controlpanel',
 	'blade.portlet.ds',
 	'blade.portlet.filter',
 	'blade.portlet.jsp',
