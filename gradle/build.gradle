@@ -34,18 +34,6 @@ subprojects {
 		}
 	}
 
-	task deploy(dependsOn:build) {
-		doLast {
-			copy {
-				from "build/libs"
-				/*into "/storage/projects/liferay7/bundles/osgi/modules/"*/
-				/*into "/home/brendan/work/liferay/test7/liferay-portal-7.0-ce-b8/osgi/modules"*/
-				into "/home/brendan/work/liferay/source/bundles/osgi/modules/"
-				include "*.jar"
-			}
-		}
-	}
-
 	version = '1.0.0'
 }
 
